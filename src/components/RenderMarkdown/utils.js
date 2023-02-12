@@ -1,4 +1,5 @@
 // 控制标题显示隐藏
+const hiddenNodes = new WeakMap()
 export  const getNodes = (e) => {
     // const titleTag = [...ulBox.current.childNodes];
     const parentNode = e.target.parentNode;
