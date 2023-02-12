@@ -1,0 +1,60 @@
+.box {
+    text-align: left;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 350px;
+}
+
+
+.title-H1 {
+    padding-left: 6px;
+}
+
+.title-H2 {
+    padding-left: 12px;
+}
+
+.title-H3 {
+    padding-left: 24px;
+}
+
+.title-H4 {
+    padding-left: 36px;
+}
+
+.title-H5 {
+    padding-left: 48px;
+}
+
+.title-H6 {
+    padding-left: 60px;
+}
+
+.md-content {
+    flex: 1;
+    min-width: 700px;
+    height: 100vh;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.markdown-body {
+    padding-left: 20px;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+
+*::-webkit-scrollbar-thumb {
+    background-color: #42b883;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(66, 184, 131, 0.3);
+}
